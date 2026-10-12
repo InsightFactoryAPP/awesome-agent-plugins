@@ -25,7 +25,7 @@
 
 ### GitHub MCP Server
 
-[GitHub MCP Server](https://github.com/github/github-mcp-server) — `Servidor MCP` · ★ 33k · Licença: MIT · Funciona com: Todos os clientes
+[GitHub MCP Server](https://github.com/github/github-mcp-server) — `Servidor MCP` · ★ 34k · Licença: MIT · Funciona com: Todos os clientes
 
 Servidor oficial do GitHub: repositórios, issues, pull requests, Actions, code scanning e mais. Mostrado o endpoint remoto; a imagem Docker (ghcr.io/github/github-mcp-server) roda localmente.
 
@@ -213,7 +213,7 @@ extensions:
 
 ### Alibaba open code review
 
-[alibaba/open-code-review](https://github.com/alibaba/open-code-review) — `Agent Skills` · ★ 44k · Licença: Apache-2.0 · Funciona com: Todos os clientes
+[alibaba/open-code-review](https://github.com/alibaba/open-code-review) — `Agent Skills` · ★ 46k · Licença: Apache-2.0 · Funciona com: Todos os clientes
 
 Ferramenta híbrida de revisão de código testada em produção na escala da Alibaba, combinando pipelines determinísticos com um agente LLM para comentários precisos linha a linha e um conjunto de regras de segurança multilíngue.
 
@@ -531,7 +531,7 @@ extensions:
 
 ### Manage repos across Git hosts
 
-[gitkraken/gk-cli](https://github.com/gitkraken/gk-cli) — `Servidor MCP` · ★ 460 · Licença: ver repo · Funciona com: Todos os clientes
+[gitkraken/gk-cli](https://github.com/gitkraken/gk-cli) — `Servidor MCP` · ★ 461 · Licença: ver repo · Funciona com: Todos os clientes
 
 Servidor da GitKraken para gerenciar repositórios, pull requests e issues no GitHub, GitLab e Bitbucket.
 
@@ -720,7 +720,7 @@ extensions:
 
 ### Native git operations
 
-[cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) — `Servidor MCP` · ★ 239 · Licença: Apache-2.0 · Funciona com: Todos os clientes
+[cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) — `Servidor MCP` · ★ 241 · Licença: Apache-2.0 · Funciona com: Todos os clientes
 
 Servidor git abrangente com ferramentas nativas como clone, commit e gestão de worktrees.
 
@@ -909,7 +909,7 @@ extensions:
 
 ### GitHub CI and PR review bot
 
-[PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — `Plugin nativo` · ★ 23 · Licença: Apache-2.0 · Funciona com: DeepSeek Harness apenas
+[PerryLink/dsh-github](https://github.com/PerryLink/dsh-github) — `Plugin nativo` · ★ 22 · Licença: Apache-2.0 · Funciona com: DeepSeek Harness apenas
 
 Integração de CI com o GitHub de nível oficial: um action.yml composto, um bot de revisão de PR por polling com comentários inline idempotentes e um gate de status-check, além de ferramentas de PR e issues em que toda escrita é aprovada por um humano.
 
@@ -949,7 +949,7 @@ dsh plugin --profile web add github:DietCokewithSugar/dsh-user-experience
 
 ### Git worktree session targets
 
-[wloops/dsh-git-worktree](https://github.com/wloops/dsh-git-worktree) — `Plugin nativo` · ★ 17 · Licença: MIT · Funciona com: DeepSeek Harness apenas
+[wloops/dsh-git-worktree](https://github.com/wloops/dsh-git-worktree) — `Plugin nativo` · ★ 19 · Licença: MIT · Funciona com: DeepSeek Harness apenas
 
 Session Targets baseados em git worktree com sessões de tarefa isoladas, status pronto-para-revisão, preview local reversível, entrega confirmada por humano, retenção e recuperação de ambiente, e iteração na mesma sessão.
 
@@ -978,7 +978,7 @@ Scripts de busca, descoberta e auditoria do GitHub empacotados como uma skill em
 
 **Alternativas:**
 
-- [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) (★ 13) — Adiciona releases, issues, PRs e dados de contribuidores, além de um relatório detalhado com cache TTL, sem chave de API
+- [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) (★ 14) — Adiciona releases, issues, PRs e dados de contribuidores, além de um relatório detalhado com cache TTL, sem chave de API
 
 <details><summary>Instalar</summary>
 
@@ -1060,8 +1060,8 @@ Conexão via GitHub Device Flow mais um fluxo de PR dentro da conversa: uma barr
 
 **Alternativas:**
 
-- [Moon-shiyue/dsh-github-connect](https://github.com/Moon-shiyue/dsh-github-connect) (★ 5) — Conecta via OAuth device flow ou um personal access token e chama a API do GitHub diretamente por uma ferramenta github_api
-- [Noob-stupid/dsh-github-login](https://github.com/Noob-stupid/dsh-github-login) (★ 5) — Adiciona login por device flow dentro da janela, sem precisar de terminal, sincronizando o token com a gh CLI e endpoints de status do host
+- [Moon-shiyue/dsh-github-connect](https://github.com/Moon-shiyue/dsh-github-connect) (★ 7) — Conecta via OAuth device flow ou um personal access token e chama a API do GitHub diretamente por uma ferramenta github_api
+- [Noob-stupid/dsh-github-login](https://github.com/Noob-stupid/dsh-github-login) (★ 6) — Adiciona login por device flow dentro da janela, sem precisar de terminal, sincronizando o token com a gh CLI e endpoints de status do host
 
 <details><summary>Instalar</summary>
 

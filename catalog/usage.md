@@ -10,14 +10,14 @@
 - [Cross-session personal usage center](#dsh-dsh-personal-center) — Local, offline personal center: cross-session usage statistics, per-model cost estimation, global custom instr…
 - [Multi-provider quota auto-discovery](#dsh-dsh-quota-panel) — Bottom-right capsule that auto-discovers every configured provider (DeepSeek, OpenRouter, SiliconFlow, GLM, on…
 - [Gamified usage tier ranking](#dsh-dsh-whale-meter) — Ranks monthly token burn into shareable emoji tiers with a locally computed percentile estimate, precise prici…
-- [Per-session usage and cost dashboard](#dsh-dsh-usage-dashboard-plus) — Shows DeepSeek balance and estimated daily spend, merges external vision-call records, and adds a per-session …
 - [Proactive per-provider rate limiting](#dsh-dsh-rate-limiter) — Queues requests that would exceed a per-provider token-bucket rate limit before they are sent, preventing upst…
+- [Per-session usage and cost dashboard](#dsh-dsh-usage-dashboard-plus) — Shows DeepSeek balance and estimated daily spend, merges external vision-call records, and adds a per-session …
 
 <a id="dsh-dsh-context"></a>
 
 ### Context lifecycle dashboard
 
-[bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — `Native plugin` · ★ 1.9k · License: Apache-2.0 · Works with: DeepSeek Harness only
+[bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — `Native plugin` · ★ 2.0k · License: Apache-2.0 · Works with: DeepSeek Harness only
 
 Dashboard, /context command, and browser for one-stop context lifecycle management: categorized composition, content details, evolution trends over time, and compaction and injection events.
 
@@ -39,14 +39,14 @@ dsh plugin --profile web add github:bowenliang123/dsh-context
 
 ### Session and daily cost dashboard
 
-[Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — `Native plugin` · ★ 375 · License: MIT · Works with: DeepSeek Harness only
+[Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — `Native plugin` · ★ 398 · License: MIT · Works with: DeepSeek Harness only
 
 Tracks per-session and daily API cost against a budget with usage percentage, shows the official account balance, keeps a history dashboard, and syncs official peak/off-peak pricing with one click.
 
 **Alternatives:**
 
 - [feibi-mochi/deepseek-harness-control-center](https://github.com/feibi-mochi/deepseek-harness-control-center) (★ 74) — Adds official recharge, completion alerts, flexible layouts, and agent-assisted session controls.
-- [kenz1117/dsh-ui-usage-billing](https://github.com/kenz1117/dsh-ui-usage-billing) (★ 70) — Estimates cost in CNY from a current multi-provider pricing catalog and exempts subscription-plan routes from the total.
+- [kenz1117/dsh-ui-usage-billing](https://github.com/kenz1117/dsh-ui-usage-billing) (★ 77) — Estimates cost in CNY from a current multi-provider pricing catalog and exempts subscription-plan routes from the total.
 - [nonewind/dsh-spend](https://github.com/nonewind/dsh-spend) (★ 8) — Shows a floating panel with per-model, per-day, and per-session token stats.
 - [Max-Samson/dsh-usage-chart](https://github.com/Max-Samson/dsh-usage-chart) (★ 9) — Adds zero-dependency SVG charts for per-turn usage and cost directly under the composer.
 
@@ -64,7 +64,7 @@ dsh plugin --profile web add github:Han-1413141/dsh-cost-meter
 
 ### Relay-attributed usage tracking
 
-[zh667/TokenLedger](https://github.com/zh667/TokenLedger) — `Native plugin` · ★ 203 · License: MIT · Works with: DeepSeek Harness only
+[zh667/TokenLedger](https://github.com/zh667/TokenLedger) — `Native plugin` · ★ 202 · License: MIT · Works with: DeepSeek Harness only
 
 Sidebar panel that attributes tokens to the relay site that served each request, read from your existing provider config: today/month/all-time totals, per-site and per-model breakdowns, a year activity heatmap, and New API/Sub2API/DeepSeek balances.
 
@@ -140,6 +140,24 @@ dsh plugin --profile web add github:Shiye-10Pages/dsh-whale-meter
 
 </details>
 
+<a id="dsh-dsh-rate-limiter"></a>
+
+### Proactive per-provider rate limiting
+
+[Xidong-AI/dsh-rate-limiter](https://github.com/Xidong-AI/dsh-rate-limiter) — `Native plugin` · ★ 4 · License: MIT · Works with: DeepSeek Harness only
+
+Queues requests that would exceed a per-provider token-bucket rate limit before they are sent, preventing upstream 429 errors.
+
+<details><summary>Install</summary>
+
+**DeepSeek Harness**
+
+```bash
+dsh plugin --profile web add github:Xidong-AI/dsh-rate-limiter
+```
+
+</details>
+
 <a id="dsh-dsh-usage-dashboard-plus"></a>
 
 ### Per-session usage and cost dashboard
@@ -158,24 +176,6 @@ Shows DeepSeek balance and estimated daily spend, merges external vision-call re
 
 ```bash
 dsh plugin --profile web add github:1HelloMan1/dsh-usage-dashboard-plus
-```
-
-</details>
-
-<a id="dsh-dsh-rate-limiter"></a>
-
-### Proactive per-provider rate limiting
-
-[Xidong-AI/dsh-rate-limiter](https://github.com/Xidong-AI/dsh-rate-limiter) — `Native plugin` · ★ 3 · License: MIT · Works with: DeepSeek Harness only
-
-Queues requests that would exceed a per-provider token-bucket rate limit before they are sent, preventing upstream 429 errors.
-
-<details><summary>Install</summary>
-
-**DeepSeek Harness**
-
-```bash
-dsh plugin --profile web add github:Xidong-AI/dsh-rate-limiter
 ```
 
 </details>

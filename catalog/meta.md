@@ -27,7 +27,7 @@
 
 ### Claude Code official plugin directory
 
-[Claude Code official plugin directory](https://github.com/anthropics/claude-plugins-official) — `Plugin marketplace` · ★ 37k · License: Apache-2.0 · Works with: Claude Code only
+[Claude Code official plugin directory](https://github.com/anthropics/claude-plugins-official) — `Plugin marketplace` · ★ 38k · License: Apache-2.0 · Works with: Claude Code only
 
 Anthropic-managed directory of Claude Code plugins (commands, agents, skills, hooks, MCP servers) installable with /plugin.
 
@@ -45,7 +45,7 @@ Anthropic-managed directory of Claude Code plugins (commands, agents, skills, ho
 
 ### skills (npx skills)
 
-[skills (npx skills)](https://github.com/vercel-labs/skills) — `Developer tool` · ★ 33k · License: MIT · Works with: —
+[skills (npx skills)](https://github.com/vercel-labs/skills) — `Developer tool` · ★ 34k · License: MIT · Works with: —
 
 CLI that installs, updates, lists and removes Agent Skills from any Git source into 75+ agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode…). Used by this catalog for skill installs.
 
@@ -61,7 +61,7 @@ Official community-driven registry service for MCP servers, with a public API fo
 
 ### dsh-market
 
-[dsh-market](https://github.com/dsh-market/dsh-market) — `Plugin marketplace` · ★ 5.6k · License: MIT · Works with: DeepSeek Harness only
+[dsh-market](https://github.com/dsh-market/dsh-market) — `Plugin marketplace` · ★ 6.3k · License: MIT · Works with: DeepSeek Harness only
 
 Plugin market inside DeepSeek Harness Settings: search, one-click install/upgrade and theme switching for every plugin in awesome-dsh-plugin.
 
@@ -69,7 +69,7 @@ Plugin market inside DeepSeek Harness Settings: search, one-click install/upgrad
 
 - [Relistencode/dsh-extension-hub](https://github.com/Relistencode/dsh-extension-hub) (★ 8) — Also manages skills and MCP servers alongside plugins, plus curated and GitHub-based search with npm one-click install.
 - [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) (★ 4) — Verifies plugins via package.json manifest checks and anti-squatting protection, plus five tools for headless agent use.
-- [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) (★ 7) — Shows an approval gate listing each plugin's detected risk flags before installing.
+- [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) (★ 6) — Shows an approval gate listing each plugin's detected risk flags before installing.
 - [zhu1090093659/dsh-web#packages/dsh-plugin-manager](https://github.com/zhu1090093659/dsh-web/tree/main/packages/dsh-plugin-manager) — Installs from npm or git with conflict reconciliation, undo, and hand-off to a fix session.
 
 <details><summary>Install</summary>
@@ -86,7 +86,7 @@ dsh plugin --profile web add dshmarket
 
 ### ECC agent harness optimizer
 
-[affaan-m/ECC](https://github.com/affaan-m/ECC) — `Agent Skills` · ★ 273k · License: MIT · Works with: All clients
+[affaan-m/ECC](https://github.com/affaan-m/ECC) — `Agent Skills` · ★ 278k · License: MIT · Works with: All clients
 
 Performance-optimization system for coding-agent harnesses bundling skills, instincts, memory, security and research-first development across Claude Code, Codex, OpenCode and Cursor.
 
@@ -199,7 +199,7 @@ Curated resources for Claude Code: slash commands, CLAUDE.md files, hooks, workf
 
 ### awesome-dsh-plugin
 
-[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) — `Curated list / registry` · ★ 18k · License: CC0-1.0 · Works with: —
+[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) — `Curated list / registry` · ★ 19k · License: CC0-1.0 · Works with: —
 
 The full list of ~3,900 DeepSeek Harness plugins. This catalog imports its best entries and folds near-duplicates; browse the original for everything else.
 
@@ -301,7 +301,7 @@ npx skills add yusufkaraaslan/Skill_Seekers -a universal
 
 ### Validated skill registry
 
-[tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) — `Agent Skills` · ★ 7.0k · License: see repo · Works with: All clients
+[tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) — `Agent Skills` · ★ 7.1k · License: see repo · Works with: All clients
 
 Secure, validated skill registry for professional AI coding agents, extending Antigravity, Claude Code, Cursor, Copilot and more.
 
@@ -395,7 +395,7 @@ npx skills add tech-leads-club/agent-skills -a universal
 
 ### Official community plugin mirror
 
-[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) — `Agent Skills` · ★ 4.5k · License: Apache-2.0 · Works with: All clients
+[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) — `Agent Skills` · ★ 4.6k · License: Apache-2.0 · Works with: All clients
 
 Read-only mirror of the official community plugin marketplace for Claude Cowork and Claude Code, maintained by Anthropic.
 
@@ -485,7 +485,7 @@ npx skills add anthropics/claude-plugins-community -a universal
 
 ### Everything Claude Code toolkit
 
-[WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) — `Agent Skills` · ★ 4.1k · License: see repo · Works with: All clients
+[WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) — `Agent Skills` · ★ 4.5k · License: see repo · Works with: All clients
 
 Single-repo Claude Code toolkit bundling agents, commands, skills, rules and hooks for productive AI-assisted development.
 
@@ -678,8 +678,8 @@ Tool and skill set that installs, translates and shares agent skills across Clau
 
 **Alternatives:**
 
-- [runkids/skillshare](https://github.com/runkids/skillshare) (★ 2.7k) — Focuses on one-command syncing and team sharing of skills across CLI tools.
-- [xingkongliang/skills-manager](https://github.com/xingkongliang/skills-manager) (★ 5.5k) — Desktop GUI app for browsing and organizing skills across 50+ coding tools.
+- [runkids/skillshare](https://github.com/runkids/skillshare) (★ 2.8k) — Focuses on one-command syncing and team sharing of skills across CLI tools.
+- [xingkongliang/skills-manager](https://github.com/xingkongliang/skills-manager) (★ 6.1k) — Desktop GUI app for browsing and organizing skills across 50+ coding tools.
 - [numman-ali/openskills](https://github.com/numman-ali/openskills) (★ 11k) — Lightweight universal skills loader distributed as an npm package.
 
 <details><summary>Install</summary>
@@ -768,7 +768,7 @@ npx skills add rohitg00/skillkit -a universal
 
 ### Native skin marketplace
 
-[kingOfSoySauce/dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) — `Native plugin` · ★ 183 · License: MIT · Works with: DeepSeek Harness only
+[kingOfSoySauce/dsh-skin-market](https://github.com/kingOfSoySauce/dsh-skin-market) — `Native plugin` · ★ 189 · License: MIT · Works with: DeepSeek Harness only
 
 Discovers community skins, shows previews and compatibility status, and provides verified one-click or manual installation paths.
 
@@ -786,7 +786,7 @@ dsh plugin --profile web add github:kingOfSoySauce/dsh-skin-market
 
 ### Chat-based plugin discovery
 
-[awesome-dsh-plugin/dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) — `Native plugin` · ★ 169 · License: MIT · Works with: DeepSeek Harness only
+[awesome-dsh-plugin/dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) — `Native plugin` · ★ 183 · License: MIT · Works with: DeepSeek Harness only
 
 Searches a curated plugin registry by keyword or category from inside the agent conversation and returns ready-to-run install commands, without opening the Settings UI.
 
@@ -804,7 +804,7 @@ dsh plugin --profile web add github:awesome-dsh-plugin/dsh-find-plugin
 
 ### Curated research plugin store
 
-[dsh-research/dsh-research](https://github.com/dsh-research/dsh-research) — `Native plugin` · ★ 8 · License: MIT · Works with: DeepSeek Harness only
+[dsh-research/dsh-research](https://github.com/dsh-research/dsh-research) — `Native plugin` · ★ 9 · License: MIT · Works with: DeepSeek Harness only
 
 Adds a Research plugins page to Settings with hand-reviewed plugins for literature search, reference management, writing, and workbenches; installs pinned versions with one click and makes exactly one network request to its own catalog.
 

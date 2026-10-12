@@ -423,7 +423,7 @@ extensions:
 
 ### Codebase intelligence for agents
 
-[Repowise](https://github.com/repowise-dev/repowise) — `Servidor MCP` · ★ 7.2k · Licença: AGPL-3.0 · Funciona com: Todos os clientes
+[Repowise](https://github.com/repowise-dev/repowise) — `Servidor MCP` · ★ 7.6k · Licença: AGPL-3.0 · Funciona com: Todos os clientes
 
 Inteligência de código para agentes: grafo de dependências, histórico do git, documentação, decisões e saúde do código.
 
@@ -801,7 +801,7 @@ extensions:
 
 ### Token-efficient AST code exploration
 
-[jCodemunch MCP](https://github.com/jgravelle/jcodemunch-mcp) — `Servidor MCP` · ★ 2.7k · Licença: ver repo · Funciona com: Todos os clientes
+[jCodemunch MCP](https://github.com/jgravelle/jcodemunch-mcp) — `Servidor MCP` · ★ 2.8k · Licença: ver repo · Funciona com: Todos os clientes
 
 Exploração de código eficiente em tokens via parsing AST com tree-sitter em 70+ linguagens, reduzindo tokens em 86-99%.
 
@@ -1163,7 +1163,7 @@ extensions:
 
 ### GitHub code research platform
 
-[Octocode MCP - AI Context Platform](https://github.com/bgauryy/octocode-mcp) — `Servidor MCP` · ★ 945 · Licença: MIT · Funciona com: Todos os clientes
+[Octocode MCP - AI Context Platform](https://github.com/bgauryy/octocode-mcp) — `Servidor MCP` · ★ 950 · Licença: MIT · Funciona com: Todos os clientes
 
 Plataforma de pesquisa de código com IA para buscar, analisar e extrair informações de qualquer repositório do GitHub; exige GITHUB_TOKEN.
 
@@ -1378,7 +1378,7 @@ extensions:
 
 ### Layered code graph with SCIP
 
-[Hex Graph](https://github.com/levnikolaevich/claude-code-skills) — `Servidor MCP` · ★ 569 · Licença: MIT · Funciona com: Todos os clientes
+[Hex Graph](https://github.com/levnikolaevich/claude-code-skills) — `Servidor MCP` · ★ 576 · Licença: MIT · Funciona com: Todos os clientes
 
 Servidor de grafo de código determinístico em camadas, com overlays de frameworks e interoperabilidade SCIP.
 
@@ -1567,7 +1567,7 @@ extensions:
 
 ### Local semantic code indexer
 
-[Octocode](https://github.com/muvon/octocode) — `Servidor MCP` · ★ 479 · Licença: Apache-2.0 · Funciona com: Todos os clientes
+[Octocode](https://github.com/muvon/octocode) — `Servidor MCP` · ★ 510 · Licença: Apache-2.0 · Funciona com: Todos os clientes
 
 Indexador de código com IA para um repositório local, com busca semântica e grafos de conhecimento.
 
@@ -1756,7 +1756,7 @@ extensions:
 
 ### Semantic search for files and code
 
-[Vexor](https://github.com/scarletkc/vexor) — `Servidor MCP` · ★ 242 · Licença: MIT · Funciona com: Todos os clientes
+[Vexor](https://github.com/scarletkc/vexor) — `Servidor MCP` · ★ 244 · Licença: MIT · Funciona com: Todos os clientes
 
 Um motor de busca semântica para arquivos e código; exige VEXOR_API_KEY (e opcionalmente uma chave de rerank).
 
